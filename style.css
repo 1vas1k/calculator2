@@ -1,0 +1,23 @@
+.rounded-img {
+    width: 60%;
+    border-radius: 30%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    padding: 0.3em;
+    margin-bottom: 1em;
+}
+
+#logo{
+    margin-right: 0px;
+    background-image: url(sanji.png);
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+    border-radius: 50px;
+    border: 1px solid white;
+    transition-duration: 200ms;
+}
+
+#logo:hover{
+    border-radius: 10px;
+    border-color: red;
+}
